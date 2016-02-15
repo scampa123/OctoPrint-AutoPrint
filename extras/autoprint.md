@@ -1,7 +1,7 @@
 ---
 layout: plugin
 
-id: autoselect
+id: autoprint
 title: OctoPrint-AutoPrint
 description: Automatically selects and prints freshly uploaded files for printing if no print job is currently active.
 author: Gina Häußge and Sal Campana
