@@ -10,7 +10,7 @@ class AutoselectPlugin(octoprint.plugin.EventHandlerPlugin):
 			return
 
 		if not self._printer.is_ready():
-			self._logger.debug("Printer is not ready, not autoprinting uploaded file")
+			self._logger.debug("Printer is not ready, not auto-printing uploaded file")
 			return
 
 		filename = payload["file"]
