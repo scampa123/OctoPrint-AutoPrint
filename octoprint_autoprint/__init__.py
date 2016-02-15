@@ -4,7 +4,7 @@ from __future__ import absolute_import
 import octoprint.plugin
 from octoprint.filemanager.destinations import FileDestinations
 
-class AutoselectPlugin(octoprint.plugin.EventHandlerPlugin):
+class AutoPrintPlugin(octoprint.plugin.EventHandlerPlugin):
 	def on_event(self, event, payload):
 		if event != "Upload":
 			return
