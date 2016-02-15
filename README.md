@@ -1,6 +1,6 @@
-# OctoPrint-Autoselect
+# OctoPrint-AutoPrint
 
-The Autoselect Plugin will automatically select newly uploaded files for
+The AutoPrint Plugin will automatically select newly uploaded files for
 printing if there is an active connection to a printer and currently no print
 job running.
 
@@ -9,4 +9,4 @@ job running.
 Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager)
 or manually using this URL:
 
-    https://github.com/OctoPrint/OctoPrint-Autoselect/archive/master.zip
+    https://github.com/scampa123/OctoPrint-AutoPrint/archive/master.zip
